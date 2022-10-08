@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+  "name": "artifact-tracker",
+  "version-string": "1.0.7",
+  "port-version": 0,
+  "description": "Artifact Tracker",
+  "homepage": "https://eddoursul.win/mods/artifact-tracker/",
+  "license": "LGPL-3.0",
+  "features": {
+    "plugin": {
+      "description": "Tracks found and stored artifacts.",
+      "dependencies": [
+        "commonlibsse-ng",
+        "simpleini"
+      ]
+    }
+  },
+  "default-features": [
+    "plugin"
+  ]
+}
